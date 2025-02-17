@@ -17,6 +17,26 @@ body{
   line-height: 1.5;
 }
 
+.container {
+  display: flex;
+  align-items: center; // Vertically center content
+  .logo {
+      width: 50px; // Adjust size as needed
+      height: 50px; // Adjust size as needed
+      margin-right: 10px;
+  }
+  .text {
+      h1 {
+          font-size: 1.5em;
+          margin-bottom: 5px;
+      }
+      p {
+          font-size: 1em;
+          margin: 0;
+      }
+  }
+}
+
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
