@@ -49,6 +49,21 @@ body{
           height: 50px; // Ukuran logo, sesuaikan
           margin-right: 10px; // Spasi kanan logo
       }
+
+      .resume-item-text {
+          h3 {
+              font-size: 1.2em; // Ukuran judul
+              margin: 0; // Hilangkan margin default h3
+          }
+          h4 {
+              font-size: 1em; // Ukuran detail
+              margin: 0; // Hilangkan margin default h4
+              color: #777; // Contoh warna, sesuaikan
+          }
+      }
+  }
+  .resume-item-copy {
+      font-size: 0.9em;  // Ukuran credential ID
   }
 }
 
